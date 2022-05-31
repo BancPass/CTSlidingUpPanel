@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "CTSlidingUpPanel",
+    platforms: [
+	.iOS(.v12)
+    ],
     products: [
         .library(name: "CTSlidingUpPanel", targets: ["CTSlidingUpPanel"])
     ],
